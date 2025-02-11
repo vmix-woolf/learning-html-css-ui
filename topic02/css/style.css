@@ -7,6 +7,25 @@ a {
     color: green;
 }
 
+:root {
+    --brand-color: #3f51b5;
+}
+
+.section {
+    /* Інші стилі */
+    border: 2px solid var(--brand-color);
+}
+
+.section-title {
+    /* Інші стилі */
+    color: var(--brand-color);
+}
+
+.section-link {
+    /* Інші стилі */
+    background-color: var(--brand-color);
+}
+
 /* Застосовується до посилань, які лежать усередині неупорядкованих списків */
 ul a {
     color: tomato;
